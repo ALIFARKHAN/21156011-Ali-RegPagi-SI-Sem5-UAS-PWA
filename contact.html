@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  
+  <!-- Required Meta Tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#000000">
+
+  <!-- Document Title, Description, and Author -->
+  <title>Contact - Concept - Bootstrap 5 Portfolio Template</title>
+  <meta name="description" content="Concept is a Bootstrap 5 Portfolio Template.">
+  <meta name="author" content="BootstrapBrain">
+
+  <!-- Favicon and Touch Icons -->
+  <link rel="icon" type="image/png" sizes="512x512" href="./assets/favicon/favicon-512x512.png">
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="./assets/css/concept-bsb.css">
+
+  <!-- BSB Head -->
+  <style>
+    /* Navbar Tetap */
+    body {
+      padding-top: 70px; /* Tambahkan padding ke body untuk mencegah konten tersembunyi di bawah navbar */
+    }
+  
+    .fixed-top {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      background-color: #fff; /* Atur warna latar belakang sesuai keinginan Anda */
+    }
+  
+    /* Link Navbar */
+    .navbar-nav {
+      text-align: center; /* Pusatkan tautan di menu mobile */
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <header id="header">
+
+    <!-- Navbar 1 - Bootstrap Brain Component -->
+    <nav class="navbar navbar-expand-md bg-light bsb-navbar bsb-navbar-hover bsb-navbar-caret fixed-top">
+    <!-- <nav class="navbar navbar-expand-md bg-light bsb-navbar bsb-navbar-hover bsb-navbar-caret"> -->
+      <div class="container">
+        <!-- <a class="navbar-brand" href="index.html">
+          <img src="./assets/img/branding/concept-logo.svg" class="bsb-tpl-logo" alt="">
+        </a> -->
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+          </svg>tombol navigasi
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Fcm</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero 1 - Bootstrap Brain Component -->
+    <section class="bsb-hero-1 px-3 bsb-overlay bsb-hover-pull" style="background-image: url('./assets/img/hero/hero-contact.webp');">
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col-12 col-md-11 col-lg-9 col-xl-7 col-xxl-6 text-center text-white">
+            <h1 class="display-3 fw-bold mb-3">Contact</h1>
+            <p class="lead mb-0">Kami di sini untuk membantu dan menjawab pertanyaan apa pun yang Anda miliki. Kami menantikan kabar dari Anda.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </header>
+
+  <!-- Main -->
+  <main id="main">
+
+    <!-- Contact 1 - Bootstrap Brain Component -->
+    <section class="py-5 py-md-8 py-xl-10">
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+            <h2 class="mb-4 display-5 text-center">Masukan Anda</h2>
+            <p class="text-secondary mb-5 text-center lead fs-4">Cara terbaik untuk menghubungi kami adalah dengan menggunakan formulir kontak kami di bawah ini. Silakan isi semua bidang yang diperlukan dan kami akan menghubungi Anda sesegera mungkin.</p>
+            <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row justify-content-lg-center">
+          <div class="col-12 col-lg-9">
+            <div class="bg-white border rounded shadow-sm overflow-hidden">
+
+              <form id="pwa">
+                <div class="row cf-ro">
+                    <div  class="col-sm-3"><label>Nama :</label></div>
+                    <div class="col-sm-8">
+                    <input id="name" type="text" placeholder="Masukan Nama Anda" name="name" class="form-control input-sm"  ></div>
+                </div>
+                <div  class="row cf-ro">
+                    <div class="col-sm-3"><label>Email :</label></div>
+                    <div class="col-sm-8">
+                    <input  id="email" type="text" name="name" placeholder="Masukan Email" class="form-control input-sm"  ></div>
+                </div>
+                 <div  class="row cf-ro">
+                    <div  class="col-sm-3"><label> Pesan:</label></div>
+                    <div class="col-sm-8">
+                      <textarea id="message" rows="5" placeholder="Pesan" class="form-control input-sm"></textarea>
+                    </div>
+                </div>
+                 <div  class="row cf-ro">
+                    <div  class="col-sm-3"><label></label></div>
+                    <div class="col-sm-8">
+                      <button type="submit" class="btn btn-primary btn-sm tombol-hitam">Send Message</button>
+                    </div>
+                  </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer 1 - Bootstrap Brain Component -->
+
+
+  <!-- Javascript Files: Vendors -->
+  <script src="https://unpkg.com/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="register.js"></script>
+  <script src="indexdb.js"></script>
+  <!-- BSB Body End -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const offcanvasNavbar = document.getElementById("offcanvasNavbar");
+      const offcanvasToggle = document.querySelector('[data-bs-toggle="offcanvas"]');
+  
+      offcanvasToggle.addEventListener("click", function () {
+        offcanvasNavbar.classList.toggle("show");
+      });
+    });
+  </script>
+</body>
+
+</html>

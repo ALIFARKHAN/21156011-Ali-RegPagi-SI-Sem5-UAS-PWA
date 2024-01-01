@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required Meta Tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+
+  <!-- Document Title, Description, and Author -->
+  <title>ALI</title>
+  <meta name="description" content="Concept is a Bootstrap 5 Portfolio Template.">
+  <meta name="author" content="BootstrapBrain">
+
+  <!-- Favicon and Touch Icons -->
+  <link rel="icon" type="image/png" sizes="512x512" href="./assets/favicon/favicon-512x512.png">
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="./assets/css/concept-bsb.css">
+
+  <link rel="manifest" href="manifest.json">
+  
+  <style>
+    /* Navbar Tetap */
+    body {
+      padding-top: 70px; /* Tambahkan padding ke body untuk mencegah konten tersembunyi di bawah navbar */
+    }
+  
+    .fixed-top {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      background-color: #fff; /* Atur warna latar belakang sesuai keinginan Anda */
+    }
+  
+    /* Link Navbar */
+    .navbar-nav {
+      text-align: center; /* Pusatkan tautan di menu mobile */
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- Header -->
+  <header id="header">
+
+    <!-- Navbar 1 - Bootstrap Brain Component -->
+
+    <nav class="navbar navbar-expand-md bg-light bsb-navbar bsb-navbar-hover bsb-navbar-caret fixed-top">
+      <!-- Kode navbar lainnya tetap sama -->
+    
+    <!-- <nav class="navbar navbar-expand-md bg-light bsb-navbar bsb-navbar-hover bsb-navbar-caret"> -->
+      <div class="container">
+        <!-- <a class="navbar-brand" href="index.html">
+          <img src="./assets/img/branding/concept-logo.svg" class="bsb-tpl-logo" alt="">
+        </a> -->
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+          </svg>tombol navigasi
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Fcm</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    <!-- </nav> -->
+  </nav>
+
+    <!-- Hero 1 - Bootstrap Brain Component -->
+    <section class="bsb-hero-1 px-3 bsb-overlay bsb-hover-pull" style="background-image: url('./assets/img/hero/hero-home.webp');">
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col-12 col-md-11 col-lg-9 col-xl-7 col-xxl-6 text-center text-white">
+            <h1 class="display-3 fw-bold mb-3">Ali Farkhan</h1>
+            <p class="lead mb-5">Meskipun aku diam tenang bagai ikan, tapi aku gelisah pula bagai ombak dalam lautan</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  </header>
+
+
+  <!-- Main -->
+  <main id="main">
+    
+    <script src="register.js"></script>
+    <script src="indexdb.js"></script>
+ 
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const offcanvasNavbar = document.getElementById("offcanvasNavbar");
+        const offcanvasToggle = document.querySelector('[data-bs-toggle="offcanvas"]');
+    
+        offcanvasToggle.addEventListener("click", function () {
+          offcanvasNavbar.classList.toggle("show");
+        });
+      });
+    </script>
+    
+    
+</body>
+
+</html>

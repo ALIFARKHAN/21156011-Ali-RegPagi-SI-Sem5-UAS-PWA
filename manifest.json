@@ -1,0 +1,20 @@
+{
+    "name": "Portofolio PWA",
+    "short_name": "Portofolio",
+    "description": "Aplikasi PWA pertama saya",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#00897B",
+    "theme_color": "#00897B",
+    "icons": [
+        {
+            "src": "image/icon.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable",
+            "permissions": ["notifications"]
+        }
+    ]
+   
+
+}
